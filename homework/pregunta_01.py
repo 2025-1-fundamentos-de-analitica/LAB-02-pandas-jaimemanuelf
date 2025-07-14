@@ -15,7 +15,7 @@ def pregunta_01():
     Rta/
     40
     """
-    df = pd.read_csv('tbl0.tsv', sep='\t')
+    df = pd.read_csv('/Users/ingmanuelf/Documents/GitHub/Fundamentos de analitica UNAL/Laboratorios/LAB-02-pandas-jaimemanuelf/files/input/tbl0.tsv', sep='\t')
     return len(df)
 
 print(pregunta_01())
